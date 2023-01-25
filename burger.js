@@ -9,14 +9,6 @@ hamburger.addEventListener("click", event =>{
 	event.stopPropagation();
 })
 
-document.addEventListener("click", event =>{
-	if(!navMenu.contains(event.target)){
-		navMenu.classList.remove("active");
-		hamburger.classList.remove("active");
-		body.classList.remove("lock");
-	}
-})
-
 document.querySelectorAll(".nav-link").forEach(element => 
 	element.addEventListener("click", ()=>{
 		hamburger.classList.remove("active");
