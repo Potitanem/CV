@@ -1,2 +1,2 @@
 # CV
-My cv
+https://potitanem.github.io/cv/
